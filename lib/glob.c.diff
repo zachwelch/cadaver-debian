@@ -1,0 +1,22 @@
+--- cadaver-0.22.2.orig/lib/glob.c
++++ cadaver-0.22.2/lib/glob.c
+@@ -305,9 +305,6 @@
+ #include <glob.h>
+ 
+ static
+-#if __GNUC__ - 0 >= 2
+-inline
+-#endif
+ const char *next_brace_sub __P ((const char *begin));
+ static int glob_in_dir __P ((const char *pattern, const char *directory,
+ 			     int flags,
+@@ -320,9 +317,6 @@
+ /* Find the end of the sub-pattern in a brace expression.  We define
+    this as an inline function if the compiler permits.  */
+ static
+-#if __GNUC__ - 0 >= 2
+-inline
+-#endif
+ const char *
+ next_brace_sub (begin)
+      const char *begin;

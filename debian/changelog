@@ -1,0 +1,134 @@
+cadaver (0.22.2-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix FTBFS with gcc-4.0. Closes: #258559, #294290.
+
+ -- Andreas Barth <aba@not.so.argh.org>  Sun, 31 Jul 2005 08:56:22 +0200
+
+cadaver (0.22.2-1) unstable; urgency=low
+
+  * new upstream version
+  * this is the official fix for 
+    libneon 0.24.6 [src/ne_dates.c, CAN-2004-0398]
+  * removed strange gcc option -Wimplicit-prototypes (may fix #258559)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Thu, 23 Sep 2004 00:34:58 +0200
+
+cadaver (0.22.1-3) unstable; urgency=high
+
+  * Applied part of an upstream patch by Joe Orton <joe@manyfish.co.uk> to
+    correct the weekdays buffer to properly fix a potential stack overflow
+    via revision date in REPORT query [src/ne_dates.c, CAN-2004-0398]
+
+ -- Bernd Eckenfels <ecki@debian.org>  Tue, 18 May 2004 14:30:34 +0200
+
+cadaver (0.22.1-2) unstable; urgency=high
+
+  * new upstream version (Closes: Bug #215952)
+  * fixes format string vulnerability in libneon. (Closes: Bug #244113)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sat, 17 Apr 2004 03:04:40 +0200
+
+cadaver (0.21.0-1) unstable; urgency=low
+
+  * new upstream version
+  * still no GNU TLS Support. Porters welcome
+
+ -- Bernd Eckenfels <ecki@debian.org>  Wed, 26 Feb 2003 04:08:11 +0100
+
+cadaver (0.20.5-3) unstable; urgency=low
+
+  * Merry X-MESS Edition II
+  * fixed description (no SSL support)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Thu, 20 Feb 2003 23:01:55 +0100
+
+cadaver (0.20.5-2) unstable; urgency=low
+
+  * Merry X-MESS Edition
+  * remove SSL support (Closes: Bug #163583)
+    NOTE: I RFA-ed this package, if you port it o GNU TLS you get it!
+
+ -- Bernd Eckenfels <ecki@debian.org>  Mon, 23 Dec 2002 17:37:10 +0100
+
+cadaver (0.20.5-1) unstable; urgency=low
+
+  * new upstream version (Closes: Bug #156829, #131307)
+  * enable .netrc usage (Closes: Bug #142440)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sat, 28 Sep 2002 23:34:19 +0200
+
+cadaver (0.20.4-1) unstable; urgency=low
+
+  * new upstream version (Closes: Bug #156829)
+  * moved to main (from non-us)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Thu, 15 Aug 2002 23:50:37 +0200
+
+cadaver (0.18.0-2) unstable; urgency=low
+
+  * some changes to ensure a more stable build
+    (this restricts builds to my default build environment)
+  * use internal expat always and do note build depend on it
+  * use libxml2-dev in favor of old libxml-dev 
+  * enforce internal libneon only (0.16)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sat,  5 Jan 2002 03:19:48 +0100
+
+cadaver (0.18.0-1) unstable; urgency=low
+
+  * new upstream version
+  * recompile is supposed to fix Bug #110878, 110879
+  * new standards version 3.1.1 -> 3.5.6
+  * configure now checks for DEB_BUILD_OPTIONS (ugly!)
+  * removed INSTALLING to make lintian totally happy
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sun,  8 Apr 2001 00:02:43 +0200
+
+cadaver (0.17.0-4) unstable; urgency=low
+
+  * added build dependencies which fixes Bug #93233 (debmake)
+  * added some more cleaning 
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sun,  8 Apr 2001 00:02:43 +0200
+
+cadaver (0.17.0-3) unstable; urgency=low
+
+  * added build dependencies which fixes Bug #92658 (libxmltok1-dev,
+    libexpat1-dev)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Thu,  5 Apr 2001 04:13:49 +0200
+
+cadaver (0.17.0-2) unstable; urgency=low
+
+  * changed build dependency on libssl-dev (#90389)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Mon,  2 Apr 2001 02:11:20 +0200
+
+cadaver (0.17.0-1) unstable; urgency=low
+
+  * new upstream version (fixes bug #86067)
+  * added --with-ssl --enable-warnings to configure
+  * added -isp to gencontrol to make lintian happy
+  * moved to non-US/main/web since it uses SSL
+
+ -- Bernd Eckenfels <ecki@debian.org>  Thu,  1 Mar 2001 04:51:23 +0100
+
+cadaver (0.13.3-1) unstable; urgency=low
+
+  * new upstream version (fixed bug #61050)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sat, 22 Jul 2000 06:25:02 +0200
+
+
+cadaver (0.9.0-1) unstable; urgency=low
+
+  * added some rm-s to the rules file
+  * the created Makefile does not support CFLAGS=.. removed from rules
+  * Initial release.
+
+ -- Bernd Eckenfels <ecki@lina.inka.de>  Thu,  6 Jan 2000 09:39:32 +0100
+
+Local variables:
+mode: debian-changelog
+End:

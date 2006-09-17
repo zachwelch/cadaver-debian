@@ -1,0 +1,11 @@
+--- cadaver-0.22.2.orig/libneon/ne_locks.c
++++ cadaver-0.22.2/libneon/ne_locks.c
+@@ -505,7 +505,7 @@
+     return end_element_common(lock, state, ctx->cdata->data);
+ }
+ 
+-static inline int can_accept(int parent, int id)
++static int can_accept(int parent, int id)
+ {
+     return (parent == NE_XML_STATEROOT && id == ELM_prop) ||
+         (parent == ELM_prop && id == ELM_lockdiscovery) ||
