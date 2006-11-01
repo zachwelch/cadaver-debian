@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Bernd Eckenfels <ecki@debian.org>
 Build-Depends: debhelper (>= 5), libncurses5-dev, libxml2-dev | libxml-dev, 
  libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon25-dev
-Standards-Version: 3.6.1
+Standards-Version: 3.7.2
 
 Package: cadaver
 Architecture: any
