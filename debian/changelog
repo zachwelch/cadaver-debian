@@ -14,6 +14,7 @@ cadaver (0.22.3+debian-1) unstable; urgency=low
   * Removed upstream's debian/ directory from .orig.tar.gz.
   * Updated standards version to 3.7.2.
   * Set compatibility level to 5.
+  * GnuTLS support will be available in the next upstream release.
 
  -- Sebastian Harl <sh@tokkee.org>  Wed,  1 Nov 2006 08:07:24 +0000
 
