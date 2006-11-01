@@ -149,6 +149,3 @@ cadaver (0.9.0-1) unstable; urgency=low
 
  -- Bernd Eckenfels <ecki@lina.inka.de>  Thu,  6 Jan 2000 09:39:32 +0100
 
-Local variables:
-mode: debian-changelog
-End:
