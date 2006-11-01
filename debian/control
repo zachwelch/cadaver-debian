@@ -1,7 +1,7 @@
 Source: cadaver
 Section: web
 Priority: optional
-Maintainer: Bernd Eckenfels <ecki@debian.org>
+Maintainer: Sebastian Harl <sh@tokkee.org>
 Build-Depends: debhelper (>= 5), libncurses5-dev, libxml2-dev | libxml-dev, 
  libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon25-dev
 Standards-Version: 3.7.2
@@ -9,13 +9,19 @@ Standards-Version: 3.7.2
 Package: cadaver
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: command-line client for WebDAV server
- Useful for WebDAV server testing and scripting. Works like command line FTP
- clients.
+Description: command-line WebDAV client
+ cadaver supports file upload, download, on-screen display, in-place editing,
+ namespace operations (move/copy), collection creation and deletion, property
+ manipulation, and resource locking.
  .
- Due to licensing issues (conflict between GPL and OpenSSL) this package
- does not provide SSL (HTTPS) support, for now. GNU TLS Porters welcome.
+ Its operation is similar to the standard BSD ftp(1) client and the Samba
+ Project's smbclient(1).
  .
- Briefly: WebDAV stands for "Web-based Distributed Authoring and Versioning".
- It is a set of extensions to the HTTP protocol which allows users to
- collaboratively edit and manage files on remote web servers. 
+ This package does not include SSL (HTTPS) support due to licensing issues.
+ .
+ WebDAV (Web-based Distributed Authoring and Versioning) is a set of
+ extensions to the HTTP protocol which allows users to collaboratively edit
+ and manage files on remote web servers.
+ .
+  Homepage: http://www.webdav.org/cadaver/
+
