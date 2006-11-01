@@ -1,11 +1,173 @@
-This package was debianized by Bernd Eckenfels ecki@lina.inka.de on
+This package was debianized by Bernd Eckenfels <ecki@lina.inka.de> on
 Thu,  6 Jan 2000 09:39:32 +0100.
 
-It was downloaded from http://www.webdav.org/cadaver/
+Sebastian Harl <sh@tokkee.org> took over maintenance on
+Wed,  1 Nov 2006 08:07:24 +0000.
 
-Copyright:
+It was downloaded from <http://www.webdav.org/cadaver/>.
 
-cadaver is free software distributed under the GNU GPL. By
-joe@orton.demon.co.uk (Joe Orton).
+Upstream Author:
+	Joe Orton <joe@manyfish.co.uk>
 
-See /usr/share/common-licenses/GPL-2
+Copyright Holders (in alphabetical order):
+	Alain Magloire <alainm@rcsm.ee.mcgill.ca>
+	Aleix Conchillo Flaque <aleix@member.fsf.org>
+	Carl Harris <ceharris@mal.com>
+	Free Software Foundation, Inc.
+	GRASE Lab, UCSC <grase@cse.ucsc.edu>
+	Gordon Matzigkeit <gord@gnu.ai.mit.edu>
+	James Clark
+	Jiang Lei <tristone@deluxe.ocn.ne.jp>
+	Joe Orton <joe@manyfish.co.uk>
+	Tommi Komulainen <Tommi.Komulainen@iki.fi>
+	Vladimir Berezniker
+
+License:
+
+	Files lib/expat/*
+	Copyright (C) 1998 James Clark
+
+	File lib/getpass.c
+	Copyright (C) Carl Harris <ceharris@mal.com>
+
+	Files lib/snprintf.c
+	      lib/snprintf.h
+	Copyright (C) Alain Magloire <alainm@rcsm.ee.mcgill.ca>
+
+	All other files in lib/ (except lib/intl/*, lib/neon/*, lib/glob.* 
+	lib/mkstemp.c and lib/tempname.c)
+	Copyright (C) 1987-1999 Free Software Foundation, Inc.
+
+	Files po/es.po
+	      po/it.po
+	Copyright (C) 2003 Free Software Foundation, Inc.
+
+	Function sub_timeval in src/cadaver.c
+	Copyright (C) 1995 Mike Gleason <mgleason@NcFTP.com>
+
+	Files src/search.c
+	      src/version.c
+	Copyright (C) 2003-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 2002-2003 GRASE Lab, UCSC <grase@cse.ucsc.edu>
+
+	File src/utils.c
+	Copyright (C) 1999-2001 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 85, 88, 90-91, 1995-1999 Free Software Foundation, Inc.
+
+	All other files (except lib/intl/*, lib/neon/* and m4/neon/*)
+	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+
+	This package is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	This package is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this package; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301,
+	USA.
+
+On Debian systems, the complete text of the GNU General Public License
+can be found in `/usr/share/common-licenses/GPL'.
+
+	Files lib/intl/*
+	Copyright (C) 1984-2005 Free Software Foundation, Inc.
+
+	File lib/neon/ne_dates.c
+	Copyright (C) 1999-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 2004 Jiang Lei <tristone@deluxe.ocn.ne.jp>
+
+	Files lib/neon/ne_gnutls.c
+	      lib/neon/ne_privssl.h
+	Copyright (C) 2002-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
+
+	Files lib/neon/ne_md5.c
+	      lib/neon/ne_md5.h
+	Copyright (C) 1995-1997 Free Software Foundation, Inc.
+
+	Files lib/neon/ne_openssl.c
+	      lib/neon/ne_session.c
+	Copyright (C) 1999-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1999-2000 Tommi Komulainen <Tommi.Komulainen@iki.fi>
+
+	File lib/neon/ne_socket.c
+	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1999-2000 Tommi Komulainen <Tommi.Komulainen@iki.fi>
+	Copyright (C) 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
+
+	Files lib/neon/ne_sspi.c
+	      lib/neon/ne_sspi.h
+	Copyright (C) 2004-2005 Vladimir Berezniker
+
+	Files lib/glob.c
+	      lib/glob.h
+	      lib/mkstemp.c
+	Copyright (C) 1991-2001 Free Software Foundation, Inc.
+
+	This program is free software; you can redistribute it and/or modify it
+	under the terms of the GNU Library General Public License as published
+	by the Free Software Foundation; either version 2, or (at your option)
+	any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+	Library General Public License for more details.
+
+	You should have received a copy of the GNU Library General Public
+	License along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301,
+	USA.
+
+On Debian systems, the complete text of the GNU Library General Public License
+can be found in `/usr/share/common-licenses/LGPL-2'.
+
+	File lib/tempname.c
+	Copyright (C) 1991-2001 Free Software Foundation, Inc.
+
+	This library is free software; you can redistribute it and/or
+	modify it under the terms of the GNU Lesser General Public
+	License as published by the Free Software Foundation; either
+	version 2 of the License, or (at your option) any later version.
+
+	This library is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+	Lesser General Public License for more details.
+
+	You should have received a copy of the GNU Lesser General Public
+	License along with this library; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301,
+	USA.
+
+On Debian systems, the complete text of the GNU Lesser General Public License
+can be found in `/usr/share/common-licenses/LGPL'.
+
+	File m4/neon/neon.m4
+	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
+
+	File m4/neon/socklen-arg-type.m4
+	Copyright (C) 1997-1999 Stephan Kulow <coolo@kde.org>
+	Copyright (C) 1999-2000 Joe Orton <joe@manyfish.co.uk>
+
+	All other files in m4/neon/
+	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+
+	This file is free software; you may copy and/or distribute it with
+	or without modifications, as long as this notice is preserved.
+	This software is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY, to the extent permitted by law; without even
+	the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+	PURPOSE.
+
+The Debian packaging is (C) 2000-2004 Bernd Eckenfels <ecki@debian.org>, 
+(C) 2006 Sebastian Harl <sh@tokkee.org> and is licensed under the GPL, see 
+above.
+
