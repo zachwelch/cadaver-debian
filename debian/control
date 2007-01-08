@@ -2,7 +2,7 @@ Source: cadaver
 Section: web
 Priority: optional
 Maintainer: Sebastian Harl <sh@tokkee.org>
-Build-Depends: debhelper (>= 5), libncurses5-dev, libxml2-dev | libxml-dev, libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon25-dev
+Build-Depends: debhelper (>= 5), libncurses5-dev, libxml2-dev | libxml-dev, libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon26-gnutls-dev
 Standards-Version: 3.7.2
 
 Package: cadaver
@@ -16,11 +16,11 @@ Description: command-line WebDAV client
  Its operation is similar to the standard BSD ftp(1) client and the Samba
  Project's smbclient(1).
  .
- This package does not include SSL (HTTPS) support due to licensing issues.
+ This package includes GnuTLS (HTTPS) support.
  .
  WebDAV (Web-based Distributed Authoring and Versioning) is a set of
- extensions to the HTTP protocol which allows users to collaboratively edit
- and manage files on remote web servers.
+ extensions to the HTTP protocol which allow users to collaboratively edit and
+ manage files on remote web servers.
  .
   Homepage: http://www.webdav.org/cadaver/
 
