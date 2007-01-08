@@ -79,31 +79,38 @@ can be found in `/usr/share/common-licenses/GPL'.
 	Copyright (C) 1984-2005 Free Software Foundation, Inc.
 
 	File lib/neon/ne_dates.c
-	Copyright (C) 1999-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1999-2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright (C) 2004 Jiang Lei <tristone@deluxe.ocn.ne.jp>
 
 	Files lib/neon/ne_gnutls.c
 	      lib/neon/ne_privssl.h
-	Copyright (C) 2002-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 2002-2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright (C) 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
 
 	Files lib/neon/ne_md5.c
 	      lib/neon/ne_md5.h
+	Copyright (C) 2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright (C) 1995-1997 Free Software Foundation, Inc.
 
 	Files lib/neon/ne_openssl.c
 	      lib/neon/ne_session.c
-	Copyright (C) 1999-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1999-2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright (C) 1999-2000 Tommi Komulainen <Tommi.Komulainen@iki.fi>
 
 	File lib/neon/ne_socket.c
-	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1998-2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright (C) 1999-2000 Tommi Komulainen <Tommi.Komulainen@iki.fi>
 	Copyright (C) 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
 
 	Files lib/neon/ne_sspi.c
 	      lib/neon/ne_sspi.h
 	Copyright (C) 2004-2005 Vladimir Berezniker
+
+	Functions strcasecmp and strncasecmp in lib/neon/ne_string.c
+	Copyright (C) 1991-1997 Free Software Foundation, Inc.
+
+	All other files in lib/neon/
+	Copright (C) 1999-2006 Joe Orton <joe@manyfish.co.uk>
 
 	Files lib/glob.c
 	      lib/glob.h
