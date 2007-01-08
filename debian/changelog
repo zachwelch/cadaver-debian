@@ -1,3 +1,18 @@
+cadaver (0.22.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Upload to experimental because of Etch freeze.
+  * Link against libneon26-gnutls:
+    - Enabled GnuTLS support (Closes: #163583, #186738, #247374).
+    - Replaced libneon25-dev build dependency with libneon26-gnutls-dev.
+  * Added patches/netrc.dpatch: Document the .netrc file support in the manpage
+    (Closes: #397735).
+  * Added watch file.
+  * Upstream no longer provides a debian/ directory. Thus repackaging is not
+    required any longer.
+
+ -- Sebastian Harl <sh@tokkee.org>  Mon,  8 Jan 2007 14:48:42 +0000
+
 cadaver (0.22.3+debian-1) unstable; urgency=low
 
   * New upstream release (Closes: #390017).
@@ -5,7 +20,7 @@ cadaver (0.22.3+debian-1) unstable; urgency=low
   * Acknowledge NMU (thanks Andreas Barth):
     - These bugs have also been fixed in the new upstream release.
   * Use packaged libneon25 (Closes: #188381):
-    - Replace libssl-dev build dependency with libneon25-dev 
+    - Replaced libssl-dev build dependency with libneon25-dev 
       (Closes: #315702).
   * Rewrote rules to use debhelper instead of debmake (Closes: #372962).
   * Rewrote copyright to correctly list all copyright holders and licenses:
