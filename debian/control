@@ -2,7 +2,7 @@ Source: cadaver
 Section: web
 Priority: optional
 Maintainer: Sebastian Harl <sh@tokkee.org>
-Build-Depends: debhelper (>= 5), libncurses5-dev, libxml2-dev | libxml-dev, libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon26-gnutls-dev, dpatch
+Build-Depends: debhelper (>= 5), autotools-dev, libncurses5-dev, libxml2-dev | libxml-dev, libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon26-gnutls-dev, dpatch
 Standards-Version: 3.7.2
 
 Package: cadaver
