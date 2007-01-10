@@ -157,7 +157,7 @@ On Debian systems, the complete text of the GNU Lesser General Public License
 can be found in `/usr/share/common-licenses/LGPL'.
 
 	File m4/neon/neon.m4
-	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1998-2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright (C) 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
 
 	File m4/neon/socklen-arg-type.m4
@@ -165,7 +165,7 @@ can be found in `/usr/share/common-licenses/LGPL'.
 	Copyright (C) 1999-2000 Joe Orton <joe@manyfish.co.uk>
 
 	All other files in m4/neon/
-	Copyright (C) 1998-2005 Joe Orton <joe@manyfish.co.uk>
+	Copyright (C) 1998-2006 Joe Orton <joe@manyfish.co.uk>
 
 	This file is free software; you may copy and/or distribute it with
 	or without modifications, as long as this notice is preserved.
