@@ -35,7 +35,7 @@ $(BUILDDIR)/config.status: configure
 	cd $(BUILDDIR) && CFLAGS="$(CFLAGS)" ../../configure \
 			--host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) \
 			--prefix=/usr --mandir=\$${prefix}/share/man \
-			--enable-warnings --enable-netrc --without-ssl
+			--enable-warnings --enable-netrc --with-ssl=gnutls
 
 build: build-stamp
 
