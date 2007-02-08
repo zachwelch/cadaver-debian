@@ -21,8 +21,6 @@ else
 	CFLAGS += -O2
 endif
 
-include /usr/share/dpatch/dpatch.make
-
 $(BUILDDIR)/config.status: configure
 	dh_testdir
 	
@@ -39,7 +37,7 @@ $(BUILDDIR)/config.status: configure
 
 build: build-stamp
 
-build-stamp: $(BUILDDIR)/config.status patch
+build-stamp: $(BUILDDIR)/config.status
 	dh_testdir
 	dh_clean
 	
@@ -48,7 +46,7 @@ build-stamp: $(BUILDDIR)/config.status patch
 	
 	touch build-stamp
 
-clean: unpatch
+clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
