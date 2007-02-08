@@ -1,3 +1,12 @@
+cadaver (0.22.5-1) experimental; urgency=low
+
+  * New upstream release.
+    - Fixes CVE-2007-0157 in the included neon sources which, however, is not
+      relevant for this package as it uses the external neon package.
+  * Removed netrc.dpatch - has been merged upstream.
+
+ -- Sebastian Harl <sh@tokkee.org>  Thu,  8 Feb 2007 11:05:45 +0000
+
 cadaver (0.22.4-1) experimental; urgency=low
 
   * New upstream release.
