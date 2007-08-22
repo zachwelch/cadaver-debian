@@ -1,3 +1,9 @@
+cadaver (0.22.5-2) unstable; urgency=low
+
+  * Reupload to unstable.
+
+ -- Sebastian Harl <sh@tokkee.org>  Thu,  7 Jun 2007 16:10:48 +0000
+
 cadaver (0.22.5-1) experimental; urgency=low
 
   * New upstream release.
