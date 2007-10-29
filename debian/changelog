@@ -1,8 +1,12 @@
 cadaver (0.23.0-1) unstable; urgency=low
 
   * New upstream version.
+  * Updated neon build dependency to libneon27-gnutls-dev.
+  * Changed menu section to "Applications/Network/File Transfer" to comply
+    with the new hierarchy.
+  * Added Vcs-Git and Vcs-Browser fields.
 
- -- Sebastian Harl <sh@tokkee.org>  Wed, 22 Aug 2007 14:56:01 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Mon, 29 Oct 2007 23:20:51 +0100
 
 cadaver (0.22.5-2) unstable; urgency=low
 
