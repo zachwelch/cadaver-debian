@@ -1,2 +1,2 @@
-?package(cadaver):needs="text" section="Apps/Net"\
+?package(cadaver):needs="text" section="Applications/Network/File Transfer"\
   title="cadaver" command="/usr/bin/cadaver"
