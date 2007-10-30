@@ -21,6 +21,7 @@ Copyright Holders (in alphabetical order):
 	Joe Orton <joe@manyfish.co.uk>
 	Tommi Komulainen <Tommi.Komulainen@iki.fi>
 	Vladimir Berezniker
+	Yves Martin  <ymartin59@free.fr>
 
 License:
 
@@ -105,6 +106,7 @@ can be found in `/usr/share/common-licenses/GPL'.
 	Files lib/neon/ne_sspi.c
 	      lib/neon/ne_sspi.h
 	Copyright (C) 2004-2005 Vladimir Berezniker
+	Copyright (C) 2007 Yves Martin  <ymartin59@free.fr>
 
 	Functions strcasecmp and strncasecmp in lib/neon/ne_string.c
 	Copyright (C) 1991-1997 Free Software Foundation, Inc.
