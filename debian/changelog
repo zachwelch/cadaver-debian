@@ -1,3 +1,13 @@
+cadaver (0.23.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * Moved "Homepage" field from package description to the source stanza.
+    - Added a versioned build dependency on dpkg-dev (>= 1.14.6).
+  * Updated neon build dependency to libneon27-gnutls-dev (>= 0.28) - older
+    versions are no longer supported.
+
+ -- Sebastian Harl <sh@tokkee.org>  Mon, 31 Mar 2008 13:09:40 +0200
+
 cadaver (0.23.0-1) unstable; urgency=low
 
   * New upstream version.
