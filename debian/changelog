@@ -6,8 +6,9 @@ cadaver (0.23.2-1) unstable; urgency=low
   * Updated neon build dependency to libneon27-gnutls-dev (>= 0.28) - older
     versions are no longer supported.
   * Updated standards-version to 3.7.3 - no changes.
+  * Removed alternate build-dependency on libxml-dev (Closes: #475552).
 
- -- Sebastian Harl <sh@tokkee.org>  Mon, 31 Mar 2008 13:12:52 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Sun, 13 Apr 2008 17:54:22 +0200
 
 cadaver (0.23.0-1) unstable; urgency=low
 
