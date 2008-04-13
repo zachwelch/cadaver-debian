@@ -52,6 +52,7 @@ clean:
 	rm -f build-stamp
 	
 	rm -rf $(BUILDDIR)
+	rm -f po/*.gmo
 	
 	for file in config.guess config.sub; do \
 		if [ -e $$file.upstream ]; then \
