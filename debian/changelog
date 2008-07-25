@@ -9,8 +9,10 @@ cadaver (0.23.2-1) unstable; urgency=low
   * Removed alternate build-dependency on libxml-dev (Closes: #475552).
   * Remove generated .gmo-files from po/ in the "clean" target to ensure clean
     double-builds.
+  * Added debian/patches/manpage_hyphen.dpatch to replace hyphens with minus
+    signs in the manpage.
 
- -- Sebastian Harl <sh@tokkee.org>  Fri, 25 Jul 2008 19:37:58 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 25 Jul 2008 20:21:42 +0200
 
 cadaver (0.23.0-1) unstable; urgency=low
 

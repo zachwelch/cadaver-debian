@@ -1,0 +1,18 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## manpage_hyphen.dpatch by Sebastian Harl <sh@tokkee.org>
+##
+## DP: Do not use hyphens as minus signs.
+
+@DPATCH@
+
+--- a/doc/cadaver.1
++++ b/doc/cadaver.1
+@@ -2,7 +2,7 @@
+ .SH NAME
+ cadaver \- A command\-line WebDAV client for Unix. 
+ .SH SYNOPSIS
+-cadaver [-et][-V][-h] http://hostname[:port]/path
++cadaver [\-et][\-V][\-h] http://hostname[:port]/path
+ .SH DESCRIPTION
+ .B cadaver 
+ supports file upload, download, on-screen display, namespace operations

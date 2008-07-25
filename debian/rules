@@ -21,7 +21,9 @@ else
 	CFLAGS += -O2
 endif
 
-$(BUILDDIR)/config.status: configure
+include /usr/share/dpatch/dpatch.make
+
+$(BUILDDIR)/config.status: configure $(DPATCH_STAMPFN)
 	dh_testdir
 	
 	for file in config.guess config.sub; do \
@@ -46,7 +48,7 @@ build-stamp: $(BUILDDIR)/config.status
 	
 	touch build-stamp
 
-clean:
+clean: unpatch
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
