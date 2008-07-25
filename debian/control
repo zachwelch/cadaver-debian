@@ -3,7 +3,7 @@ Section: web
 Priority: optional
 Maintainer: Sebastian Harl <sh@tokkee.org>
 Build-Depends: debhelper (>= 5), dpkg-dev (>= 1.14.6), autotools-dev, libncurses5-dev, libxml2-dev, libreadline5-dev, zlib1g-dev (>= 1:1.1.3), libneon27-gnutls-dev (>= 0.28)
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.webdav.org/cadaver/
 Vcs-Git: git://git.tokkee.org/pkg-cadaver.git
 Vcs-Browser: http://git.tokkee.org/?p=pkg-cadaver.git
