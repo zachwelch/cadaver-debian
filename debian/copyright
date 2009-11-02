@@ -1,7 +1,7 @@
 This package was debianized by Bernd Eckenfels <ecki@lina.inka.de> on
 Thu,  6 Jan 2000 09:39:32 +0100.
 
-Sebastian Harl <sh@tokkee.org> took over maintenance on
+Sebastian Harl <tokkee@debian.org> took over maintenance on
 Wed,  1 Nov 2006 08:07:24 +0000.
 
 It was downloaded from <http://www.webdav.org/cadaver/>.
@@ -178,6 +178,6 @@ can be found in `/usr/share/common-licenses/LGPL'.
 	PURPOSE.
 
 The Debian packaging is © 2000-2004 Bernd Eckenfels <ecki@debian.org>,
-© 2006-2008 Sebastian Harl <sh@tokkee.org> and is licensed under the GPL,
+© 2006-2008 Sebastian Harl <tokkee@debian.org> and is licensed under the GPL,
 see above.
 
