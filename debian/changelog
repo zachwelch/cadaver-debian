@@ -11,8 +11,10 @@ cadaver (0.23.2-2) unstable; urgency=low
       longer provide libgnutls-config which was used previously for those
       checks; thanks to Lucas Nussbaum and Peter Fritzsche for reporting this
       (Closes: #549797, #554041).
+  * Added debian/README.source:
+    - The file includes a pointer to /usr/share/doc/dpatch/README.source.gz.
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 03 Nov 2009 00:16:34 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 03 Nov 2009 00:22:47 +0100
 
 cadaver (0.23.2-1) unstable; urgency=low
 
