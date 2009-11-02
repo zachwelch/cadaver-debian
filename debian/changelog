@@ -1,3 +1,12 @@
+cadaver (0.23.2-2) unstable; urgency=low
+
+  * control:
+    - Added libreadline-dev as the preferred option to the libreadline5-dev
+      build-dependency; thanks to Matthias Klose for reporting this
+      (Closes: #553736).
+
+ -- Sebastian Harl <tokkee@debian.org>  Mon, 02 Nov 2009 23:15:26 +0100
+
 cadaver (0.23.2-1) unstable; urgency=low
 
   * New upstream version.
