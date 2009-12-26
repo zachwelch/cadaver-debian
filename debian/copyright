@@ -12,14 +12,17 @@ Upstream Author:
 Copyright Holders (in alphabetical order):
 	Alain Magloire <alainm@rcsm.ee.mcgill.ca>
 	Aleix Conchillo Flaque <aleix@member.fsf.org>
+	Arun Garg <arung@pspl.co.in>
 	Carl Harris <ceharris@mal.com>
+	Daniel Stenberg <daniel@haxx.se>
 	Free Software Foundation, Inc.
 	GRASE Lab, UCSC <grase@cse.ucsc.edu>
 	Gordon Matzigkeit <gord@gnu.ai.mit.edu>
+	Henrik Holst <henrik.holst2@gmail.com>
 	James Clark
 	Jiang Lei <tristone@deluxe.ocn.ne.jp>
 	Joe Orton <joe@manyfish.co.uk>
-	Tommi Komulainen <Tommi.Komulainen@iki.fi>
+	Kai Sommerfeld <kso@openoffice.org>
 	Vladimir Berezniker
 	Yves Martin  <ymartin59@free.fr>
 
@@ -80,13 +83,18 @@ can be found in `/usr/share/common-licenses/GPL-2'.
 	Files lib/intl/*
 	Copyright © 1984-2007 Free Software Foundation, Inc.
 
+	Files lib/neon/ne_acl3744.{c,h}
+	Copyright © 2001-2006, 2008 Joe Orton <joe@manyfish.co.uk>
+	Copyright © 2001 Arun Garg <arung@pspl.co.in>
+	Copyright © 2007 Henrik Holst <henrik.holst2@gmail.com>
+
 	File lib/neon/ne_dates.c
 	Copyright © 1999-2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright © 2004 Jiang Lei <tristone@deluxe.ocn.ne.jp>
 
 	Files lib/neon/ne_gnutls.c
 	      lib/neon/ne_privssl.h
-	Copyright © 2002-2008 Joe Orton <joe@manyfish.co.uk>
+	Copyright © 2002-2009 Joe Orton <joe@manyfish.co.uk>
 	Copyright © 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
 
 	Files lib/neon/ne_md5.c
@@ -94,14 +102,15 @@ can be found in `/usr/share/common-licenses/GPL-2'.
 	Copyright © 2006 Joe Orton <joe@manyfish.co.uk>
 	Copyright © 1995-1997 Free Software Foundation, Inc.
 
-	Files lib/neon/ne_openssl.c
-	      lib/neon/ne_session.c
-	Copyright © 1999-2008 Joe Orton <joe@manyfish.co.uk>
-	Copyright © 1999-2000 Tommi Komulainen <Tommi.Komulainen@iki.fi>
+	File lib/neon/ne_ntlm.c
+	Copyright © 2003 Daniel Stenberg <daniel@haxx.se>
+	Copyright © 2009 Kai Sommerfeld <kso@openoffice.org>
+
+	File lib/neon/ne_ntlm.h
+	Copyright © 2009 Kai Sommerfeld <kso@openoffice.org>
 
 	File lib/neon/ne_socket.c
 	Copyright © 1998-2008 Joe Orton <joe@manyfish.co.uk>
-	Copyright © 1999-2000 Tommi Komulainen <Tommi.Komulainen@iki.fi>
 	Copyright © 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
 
 	Files lib/neon/ne_sspi.c
@@ -113,7 +122,7 @@ can be found in `/usr/share/common-licenses/GPL-2'.
 	Copyright © 1991-1997 Free Software Foundation, Inc.
 
 	All other files in lib/neon/
-	Copyright © 1999-2008 Joe Orton <joe@manyfish.co.uk>
+	Copyright © 1999-2009 Joe Orton <joe@manyfish.co.uk>
 
 	Files lib/glob.c
 	      lib/glob.h
@@ -159,6 +168,9 @@ can be found in `/usr/share/common-licenses/LGPL-2'.
 On Debian systems, the complete text of the GNU Lesser General Public License
 can be found in `/usr/share/common-licenses/LGPL'.
 
+	File m4/neon/ld-version-script.m4
+	Copyright © 2008-2009 Free Software Foundation, Inc.
+
 	File m4/neon/neon.m4
 	Copyright © 1998-2008 Joe Orton <joe@manyfish.co.uk>
 	Copyright © 2004 Aleix Conchillo Flaque <aleix@member.fsf.org>
@@ -168,7 +180,7 @@ can be found in `/usr/share/common-licenses/LGPL'.
 	Copyright © 1999-2000 Joe Orton <joe@manyfish.co.uk>
 
 	All other files in m4/neon/
-	Copyright © 1998-2007 Joe Orton <joe@manyfish.co.uk>
+	Copyright © 1998-2009 Joe Orton <joe@manyfish.co.uk>
 
 	This file is free software; you may copy and/or distribute it with
 	or without modifications, as long as this notice is preserved.
