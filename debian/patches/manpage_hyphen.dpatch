@@ -11,8 +11,17 @@
  .SH NAME
  cadaver \- A command\-line WebDAV client for Unix. 
  .SH SYNOPSIS
--cadaver [-et][-V][-h] http://hostname[:port]/path
-+cadaver [\-et][\-V][\-h] http://hostname[:port]/path
+-cadaver [-trp[-r file][-p host[:port]]][-V][-h] http://hostname[:port]/path
++cadaver [\-trp[\-r file][\-p host[:port]]][\-V][\-h] http://hostname[:port]/path
  .SH DESCRIPTION
  .B cadaver 
  supports file upload, download, on-screen display, namespace operations
+@@ -162,7 +162,7 @@
+ .IP
+ .SH FILES
+ .IP "~/.cadaverrc"
+-Individual user settings that can override cadaver defaults and to script cadaver. Can be changed by the "--rcfile" option.
++Individual user settings that can override cadaver defaults and to script cadaver. Can be changed by the "\-\-rcfile" option.
+ .IP "~/.netrc"
+ Login and initialization information used by the auto-login process. See
+ section "THE .netrc FILE" for details.
