@@ -5,6 +5,8 @@ cadaver (0.23.3-1) unstable; urgency=low
       recent versions of gnutls no longer provide libgnutls-config which was
       used previously for those checks; thanks to Lucas Nussbaum and Peter
       Fritzsche for reporting this (Closes: #549797, #554041).
+    - Added full support for large files (> 2GB); thanks to Andreas
+      Unterkircher for reporting this (Closes: #529564).
   * debian/control:
     - Added libreadline-dev as the preferred option to the libreadline5-dev
       build-dependency; thanks to Matthias Klose for reporting this
@@ -15,7 +17,7 @@ cadaver (0.23.3-1) unstable; urgency=low
   * debian/patches:
     - Updated manpage_hyphen.dpatch.
 
- -- Sebastian Harl <tokkee@debian.org>  Sat, 26 Dec 2009 16:05:56 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Sat, 26 Dec 2009 16:27:06 +0100
 
 cadaver (0.23.2-1) unstable; urgency=low
 
