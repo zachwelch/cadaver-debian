@@ -4,6 +4,8 @@ cadaver (0.23.3-2) unstable; urgency=low
     - Explicitly build-depend and link against libgcrypt. The function is used
       by cadaver directly, causing a build failure with current build tools.
       Thanks to David Suárez for reporting this (Closes: #720800).
+  * debian/control:
+    - Bumped standards-version to 3.9.4.
 
  -- Sebastian Harl <tokkee@debian.org>  Sat, 23 Nov 2013 16:27:43 +0100
 
