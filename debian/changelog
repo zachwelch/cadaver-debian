@@ -6,6 +6,7 @@ cadaver (0.23.3-2) unstable; urgency=low
       Thanks to David Suárez for reporting this (Closes: #720800).
   * debian/control:
     - Bumped standards-version to 3.9.4.
+    - Let cadaver depend on ${misc:Depends}.
   * debian/rules:
     - Added build-arch and build-indep targets.
 

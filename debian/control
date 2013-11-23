@@ -17,7 +17,7 @@ Vcs-Browser: http://git.tokkee.org/?p=pkg-cadaver.git
 
 Package: cadaver
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: command-line WebDAV client
  cadaver supports file upload, download, on-screen display, in-place editing,
  namespace operations (move/copy), collection creation and deletion, property
