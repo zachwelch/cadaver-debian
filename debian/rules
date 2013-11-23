@@ -38,7 +38,10 @@ $(BUILDDIR)/config.status: configure $(DPATCH_STAMPFN)
 			--enable-warnings --enable-netrc --with-ssl=gnutls \
 			CFLAGS="$(CFLAGS)" LIBS="-lgcrypt"
 
-build: build-stamp
+build: build-arch build-indep
+
+build-arch: build-stamp
+build-indep: build-stamp
 
 build-stamp: $(BUILDDIR)/config.status
 	dh_testdir

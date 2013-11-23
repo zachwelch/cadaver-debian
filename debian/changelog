@@ -6,6 +6,8 @@ cadaver (0.23.3-2) unstable; urgency=low
       Thanks to David Suárez for reporting this (Closes: #720800).
   * debian/control:
     - Bumped standards-version to 3.9.4.
+  * debian/rules:
+    - Added build-arch and build-indep targets.
 
  -- Sebastian Harl <tokkee@debian.org>  Sat, 23 Nov 2013 16:27:43 +0100
 
